@@ -11,7 +11,7 @@ A secure and RESTful backend API built with **Node.js**, **Express.js**, and **M
 - Passwords hashed with bcrypt
 - Create, Read, Update, and Delete (CRUD) operations for contacts
 - Each user can access only their own contacts
-- Tested with Postman
+- Tested with Thunder Client
 
 ---
 
@@ -24,7 +24,7 @@ A secure and RESTful backend API built with **Node.js**, **Express.js**, and **M
 | Framework   | Express.js           |
 | Database    | MongoDB + Mongoose   |
 | Auth        | JSON Web Tokens (JWT), bcrypt |
-| API Testing     | Postman              |
+| API Testing     | Thunder Client              |
 
 ---
 
@@ -34,7 +34,7 @@ A secure and RESTful backend API built with **Node.js**, **Express.js**, and **M
 - cd contact-api
 2. **Install dependencies:**
 - npm install
-3. **Create a .env file:**
+3. **Create a .env file:** define
 - PORT
 - CONNECTION_DB
 - ACCESS_TOKEN_SECRET
